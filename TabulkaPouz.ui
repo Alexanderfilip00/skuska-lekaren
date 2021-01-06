@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TabulkaPouz</class>
+ <widget class="QDialog" name="TabulkaPouz">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1333</width>
+    <height>552</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1100</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Tabuľka používateľov - Lekáreň Mint</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>mint.ico</normaloff>mint.ico</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTableWidget" name="tabulka">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <column>
+      <property name="text">
+       <string>STATUS</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>login</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>heslo</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>meno</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>priezvisko</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>ulica</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>mesto</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>PSČ</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>minuté</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>pozícia</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>vybavené</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="odstrPouz">
+        <property name="text">
+         <string>Odstrániť používateľa</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="zavriet">
+        <property name="text">
+         <string>Zavrieť</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
